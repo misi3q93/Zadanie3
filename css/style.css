@@ -22,8 +22,8 @@ body{
 }
 
 .glyphicon-plus {
-       color: #5bc0de;
-       padding-right: 15px; 
+    color: #5bc0de;
+    padding-right: 15px; 
 }
 
 .container{
@@ -42,13 +42,12 @@ h1{
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 
-article img{
-    max-width: 100%; 
-    height: auto;
-}
-
 header p{
     height: 5px;
+}
+
+header h1{
+    letter-spacing: 0.2mm;
 }
 
 header .container{
@@ -73,21 +72,27 @@ header .container hr{
     margin-top: 50px;
 }
 
-article .container .row .col-xs-6:first-child{
+nav .container .row .col-xs-6:last-child img{
+    max-width: 100%; 
+    height: auto;
+    padding: 7px 7px 7px 7px;
+}
+
+nav .container .row .col-xs-6:first-child{
     padding-right: 100px;
 }
 
-article .container .row .col-xs-6:first-child a{
+nav .container .row .col-xs-6:first-child a{
     padding: 15px 60px 15px 60px;
     font-size: 20px;
 }
 
-article .container .row .col-xs-6 h1{
+nav .container .row .col-xs-6 h1{
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
-article .container hr{
+nav .container hr{
     margin-top: 70px;
 }
 
@@ -101,31 +106,55 @@ h2{
     text-shadow: 1px 1px 0 #FFFFFF;
 }
 
-section .container .row .col-xs-6:first-child{
+article .container .row .col-xs-6:first-child{
     padding-right: 50px;
     padding-bottom: 40px;
 }
 
-aside img{
+section img{
     max-width: 100%; 
     height: auto;
-    border: 3px solid white;
 }
 
-aside .container .row .col-xs-12 .row .col-xs-9 p{
+section .container .row .col-xs-12 .row .col-xs-9 p{
     padding: 25px 25px 25px 25px;
 }
 
-aside .container .row .col-xs-12 .row .col-xs-3{
+section .container .row .col-xs-12 .row .col-xs-3{
     text-align: right; 
 }
 
-aside .container .row .col-xs-12 .row{
+section .container .row .col-xs-12 .row{
     padding-top: 25px;
 }
 
-aside .container:last-child .row .col-xs-4:first-child p{
-    padding-left: 10px;
+section .container .row .col-xs-12 .row img{
+    padding: 10px 10px 10px 10px;
+}
+
+aside{
+    padding-top: 50px;
+}
+
+aside .container .row .col-xs-1 img{
+    padding-top: 30px;
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+aside .container .row .col-xs-3 img{
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px; 
+}
+
+aside .container .row .col-xs-3{
+    padding-right: -10px;
+}
+
+.strzalka{
+    text-align: center;
+    padding-left: 48%;
+    position: relative; bottom: -22px; z-index: 2;
 }
 
 footer{
@@ -134,11 +163,6 @@ footer{
     width: 100%;
     text-align: center;
     min-height: 400px;
-}
-
-footer img{
-    text-align: center;
-    position: relative; bottom: -20px; z-index: 2;
 }
 
 footer p{
@@ -156,9 +180,8 @@ footer .container .row .col-xs-12 p{
 
 footer .container .row:last-child{
     padding-top: 50px;
+    text-align: center;
 }
-
-
 
 
 
